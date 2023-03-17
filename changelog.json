@@ -5,6 +5,143 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "c0d401de0df43b36c4b2d1511c436eb90a7cf446",
+          "message": "[grafeas] Add VULNERABILITY_ASSESSMENT Note type to grafeas v1 API, adds Vex_Assessment derived from the Note to resources' occurrences, VEX notes now be written to add CVE assessments",
+          "issues": [
+            "4069"
+          ]
+        }
+      ],
+      "version": "4.4.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/grafeas",
+      "id": "fb2bdb90-1446-403b-83bc-333e93618790",
+      "createTime": "2023-03-17T19:54:32.342Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "a3b26fc4052a72858f837a45237c9df88289fb75",
+          "message": "[containeranalysis] remove the unimplemented ScanConfig API method and resources",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "ec484a6f369d2df6dc73a798501c8937caf5634b",
+          "message": "[containeranalysis] Add VULNERABILITY_ASSESSMENT Note type to grafeas v1 API, adds Vex_Assessment derived from the Note to resources' occurrences, VEX notes now be written to add CVE assessments",
+          "issues": [
+            "4070"
+          ]
+        }
+      ],
+      "version": "4.6.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/containeranalysis",
+      "id": "f5e3dd0a-5af2-4048-b231-30e7727ae692",
+      "createTime": "2023-03-17T19:54:32.340Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "55efb27141ba420ea9c181673708e8282382b0ff",
+          "message": "[cloudbuild] change java package of Cloud Build v2",
+          "issues": [
+            "4087"
+          ]
+        }
+      ],
+      "version": "3.5.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/cloudbuild",
+      "id": "5fcb6cf1-59c8-4157-b4d2-d0d758cfc8cf",
+      "createTime": "2023-03-17T19:54:32.338Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "b246145a5c4bb18b0fa605460077c314134f6b37",
+          "message": "[iap] add an enum ENROLLED_SECOND_FACTORS under IapSettings",
+          "issues": [
+            "4081"
+          ]
+        }
+      ],
+      "version": "2.3.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/iap",
+      "id": "9c3685be-6745-43fa-997a-70909f683cd3",
+      "createTime": "2023-03-17T19:54:32.334Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "a9a831cf17b8555f55f6a6b0189efb308b7f7f6d",
+          "message": "Add support for entries associated with Looker and CloudSQL",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "a9a831cf17b8555f55f6a6b0189efb308b7f7f6d",
+          "message": "Add support for a ReconcileTags() API method",
+          "issues": []
+        },
+        {
+          "type": "feat",
+          "sha": "a9a831cf17b8555f55f6a6b0189efb308b7f7f6d",
+          "message": "[datacatalog] add support for new ImportEntries() API, including format of the dump",
+          "issues": [
+            "4082"
+          ]
+        }
+      ],
+      "version": "3.3.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/datacatalog",
+      "id": "a3b58e99-1273-450a-b8c9-9ca96d168225",
+      "createTime": "2023-03-17T19:54:32.332Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "e7b8d25437573247f2b790304e7f2f152d00a872",
+          "message": "[channel] add show_future_offers to ListOffers",
+          "issues": [
+            "4079"
+          ]
+        }
+      ],
+      "version": "2.5.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/channel",
+      "id": "23490bac-7bd3-4b4a-b40b-9f25d4bd2d7c",
+      "createTime": "2023-03-17T19:54:32.330Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "671757d28e2ed57c8586005bb4143cf4fb1545b0",
+          "message": "[binaryauthorization] Add VULNERABILITY_ASSESSMENT Note type to grafeas v1 API, adds Vex_Assessment derived from the Note to resources' occurrences, VEX notes now be written to add CVE assessments",
+          "issues": [
+            "4071"
+          ]
+        }
+      ],
+      "version": "2.4.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/binary-authorization",
+      "id": "80395184-15ee-4727-886c-c5a9361600f7",
+      "createTime": "2023-03-17T19:54:32.328Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "b04c77858f6d807c11a31a3fb7e3adc3289ff581",
           "message": "Add initial files for google.cloud.alloydb.v1",
           "issues": [
@@ -4621,5 +4758,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2023-03-13T17:28:30.813Z"
+  "updateTime": "2023-03-17T19:54:32.342Z"
 }
